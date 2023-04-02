@@ -1,0 +1,21 @@
+@import url(./process.css);
+@import url(./fonts.css);
+
+* {
+  margin: 0; 
+  box-sizing: border-box;  
+  padding: 0;
+  list-style: none; 
+  text-decoration: none; 
+}
+
+html {
+  background-color: #fff;
+  color: #312c2c;
+}
+
+.container {
+  margin: auto;
+  max-width: 1170px;
+  padding: 0 15px;
+}
