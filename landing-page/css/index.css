@@ -1,5 +1,7 @@
+@import url(./heading.css);
 @import url(./process.css);
 @import url(./fonts.css);
+@import url(./pricing.css);
 
 * {
   margin: 0; 
