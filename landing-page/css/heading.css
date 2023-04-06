@@ -1,6 +1,5 @@
 .heading-title__text {
   margin: auto;
-  margin-bottom: 34px;
   max-width: 670px;
   font-size: 36px;
   line-height: 42px;  
@@ -12,10 +11,11 @@
   color: #212121;  
 }
 
-.heading-title__line::after {
+.heading-title__text::after {
   content: '';
   display: block;
   margin: auto;
+  margin-top: 34px;
   margin-bottom: 34px;
   width: 64px;
   height: 2px;
