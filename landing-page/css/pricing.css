@@ -68,3 +68,7 @@
   font-style: normal;
   color: #86878B; 
 }
+
+.pricing-card__feature-name:last-child{
+  margin-bottom: 0px;
+}
