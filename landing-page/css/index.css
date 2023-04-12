@@ -1,12 +1,11 @@
 @import url(./heading.css);
 @import url(./process.css);
-@import url(./fonts.css);
+@import url(./cdn.css);
 @import url(./pricing.css);
 @import url(./axure.css);
 @import url(./testimonials.css);
 @import url(./header.css);
 @import url(./social.css);
-@import url(./sdnicons.css);
 
 * {
   margin: 0; 
