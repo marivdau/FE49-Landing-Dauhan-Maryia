@@ -5,17 +5,19 @@
 
 .social-content {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin: 0 -15px;
 }
 
 .social-info {
-  margin-right: 129px;
+  margin: 0 15px;
+  /* margin-left: 110px; */
 }
 
 .social-info__name {
   margin-bottom: 14px;
-  display: flex;
   width: 125px;
   font-family: 'Open Sans';
   font-style: normal;
@@ -40,6 +42,7 @@
 }
 
 .social-icon {
+  margin: 0 -15px;
   width: 684px; 
 }
 
@@ -47,6 +50,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 15px;
 }
 
 .fa-facebook-f {
