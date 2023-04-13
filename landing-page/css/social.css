@@ -8,15 +8,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin: 0 -15px;
-}
-
-.social-info {
-  margin: 0 15px;
-  /* margin-left: 110px; */
 }
 
 .social-info__name {
+  display:inline-block;
   margin-bottom: 14px;
   width: 125px;
   font-family: 'Open Sans';
@@ -30,9 +25,6 @@
 
 .social-info__text {
   width: 365px;
-}
-
-.social-info__text {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
@@ -51,58 +43,6 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 15px;
-}
-
-.fa-facebook-f {
-  width: 42px;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 42px;
-  color: rgba(134, 135, 139, .3);
-} 
-
-.fa-twitter {
-  width: 42px;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 42px;
-  color: rgba(134, 135, 139, .3);
-}
-
-.fa-google-plus-g {
-  width: 42px;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 42px;
-  color: rgba(134, 135, 139, .3);
-}
-
-.fa-pinterest {
-  width: 42px;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 42px;
-  color: rgba(134, 135, 139, .3);
-}
-
-.fa-instagram {
-  width: 42px;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 42px;
-  color: rgba(134, 135, 139, .3);
-}
-
-.fa-stumbleupon {
-  width: 42px;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 42px;
-  color: rgba(134, 135, 139, .3);
-}
-
-.fa-rss {
-  width: 42px;
   font-style: normal;
   font-weight: 900;
   font-size: 42px;
