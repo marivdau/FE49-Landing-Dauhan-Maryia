@@ -3,7 +3,7 @@
   background-color: #F5F5F5;
 }
 
-.pricing-options {
+.pricing-wrap {
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
@@ -12,8 +12,8 @@
 
 .pricing-card {
   margin: 0 15px;
-  width: 340px;  
-  text-align: center;
+  width: 340px; 
+  cursor: default;
 }
 
 .pricing-card__subscription-name {
@@ -25,8 +25,14 @@
   line-height: 27px; 
   font-weight: 700;
   font-style: normal;
+  text-align: center;
   text-transform: capitalize;  
   color: #FFFFFF;  
+}
+
+.pricing-card__subscription-name:hover {
+  transform: translate(10px, -10px);
+  transition: .6s;
 }
 
 .pricing-card__price {
@@ -37,8 +43,14 @@
   font-size: 35px;
   line-height: 42px; 
   font-weight: 700;
-  font-style: normal;  
+  font-style: normal; 
+  text-align: center; 
   color: #FFFFFF; 
+}
+
+.pricing-card__price:hover {
+  transform: translate(10px, -10px);
+  transition: .6s;
 }
 
 .pricing-card__feature-heading {
@@ -50,11 +62,17 @@
   line-height: 19px; 
   font-weight: 600;
   font-style: normal;
+  text-align: center;
   color: #FFFFFF;  
 }
 
 .pricing-card__feature-heading p {
   opacity: .5;
+}
+
+.pricing-card__feature-heading:hover {
+  transform: translate(10px, -10px);
+  transition: .6s;
 }
 
 .pricing-card__feature-name {
@@ -66,9 +84,15 @@
   line-height: 19px; 
   font-weight: 400;
   font-style: normal;
+  text-align: center;
   color: #86878B; 
 }
 
 .pricing-card__feature-name:last-child{
   margin-bottom: 0px;
+}
+
+.pricing-card__feature-name:hover {
+  transform: translate(10px, -10px);
+  transition: .6s;
 }
