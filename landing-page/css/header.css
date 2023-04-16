@@ -10,20 +10,10 @@
   margin-left: 110px;
 }
 
-.logo {
-  display: inline-block;
+.header-logo__text {
   width: 68px;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
   font-size: 30px;
   line-height: 35px;
-  color: #FFFFFF;
-  text-transform: uppercase;
-}
-
-.logo__text__color-changed {
-  color: #EC7979;
 }
 
 .navigation-list {
