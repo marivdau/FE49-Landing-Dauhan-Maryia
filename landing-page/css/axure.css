@@ -1,5 +1,5 @@
 .axure {
-  background-image: url("../bgr/background_1.jpg");
+  background-image: url("../bgr/background-axure.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -25,26 +25,7 @@
   position: relative;
 }
 
-.download-link-bgr__link {
-  display: block;
+.axure-link {
   margin: auto;
-  border: 1px solid #FFFFFF;
-  width: 135px;
-  height: 42px;
-  padding: 11px 26px;
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 20px; 
-  text-transform: capitalize;
   text-align: center;
-  color: #FFFFFF;
-  transition: .9s;
-}
-
-.download-link-bgr__link:hover{
-  background: #FFFFFF;
-  color: rgba( 0, 0, 0, .55);
-  transition: .5s;
 }
