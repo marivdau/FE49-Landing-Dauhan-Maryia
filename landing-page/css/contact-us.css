@@ -1,0 +1,46 @@
+.contact-us {
+  padding: 80px 111px 44px 111px;
+}
+
+.contact-us-input-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 68px;
+  flex-wrap: wrap;
+}
+
+.contact-us-form_item {
+  margin-bottom: 32px;
+}
+
+.contact-us-form_item:last-child {
+  margin-bottom: 0;
+}
+
+.contact-us-form-item__input {
+  width: 479px;
+}
+
+.contact-us-form-item__textarea {
+  width: 478px;
+}
+
+.contact-us-form-button {
+  display: flex;  
+  margin: auto;
+}
+
+.contact-us-send-button {
+  margin: auto;
+  width: 166px;
+  line-height: 42px; 
+}
+
+.contact-us-send-button:hover {
+  border: 1px solid #EC7979;
+}
+
+.contact-us-send-button:active {
+  border: 1px solid #EC7979;
+}
