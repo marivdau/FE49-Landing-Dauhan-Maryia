@@ -6,8 +6,8 @@
 .pricing-wrap {
   flex-wrap: wrap;
   display: flex;
-  justify-content: center;
-  margin: 0 -15px; 
+  justify-content: space-evenly;
+  margin: 0 -15px;   
 }
 
 .pricing-card {

@@ -10,6 +10,8 @@
 @import url(./primary.css);
 @import url(./download-link.css);
 @import url(./logo.css);
+@import url(./contact-us.css);
+@import url(./form.css);
 
 * {
   margin: 0; 
