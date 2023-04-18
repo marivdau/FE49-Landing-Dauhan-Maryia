@@ -1,5 +1,5 @@
 .header {
-  padding-left: 10px 0;
+  padding: 0 110px;
   background-color: #000000;
 }
 
@@ -7,23 +7,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 110px;
 }
 
-.logo {
-  display: inline-block;
+.header-logo__text {
   width: 68px;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
   font-size: 30px;
   line-height: 35px;
-  color: #FFFFFF;
-  text-transform: uppercase;
-}
-
-.logo__text__color-changed {
-  color: #EC7979;
 }
 
 .navigation-list {
@@ -33,10 +22,6 @@
 
 .navigation-list__item {
   margin-left: 48px;
-}
-
-.navigation-list__item:last-child {
-  margin-right: 108px;
 }
 
 .navigation-list__item a {

@@ -1,0 +1,29 @@
+.download-link__link {
+  display: block;
+  border: 1px solid #FFFFFF;
+  width: 135px;
+  height: 42px;
+  padding: 11px 26px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px; 
+  text-transform: capitalize;
+  text-align: center;
+  color: #FFFFFF;
+  transition: .9s;
+}
+
+.download-link__link:hover{
+  background: #FFFFFF;
+  color: rgba( 0, 0, 0, .55);
+  transition: .5s;
+}
+
+.download-link__link:active {
+  background: none;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  transition: .9s;
+}

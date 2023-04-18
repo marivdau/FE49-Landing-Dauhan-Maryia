@@ -5,7 +5,7 @@
 .process-card-wrap { 
   flex-wrap: wrap;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin: 0 -15px; 
 }
 

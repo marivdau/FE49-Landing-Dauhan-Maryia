@@ -5,7 +5,7 @@
 .testimonials-card-wrap {
   flex-wrap: wrap;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0 -15px;
 }
 
@@ -39,6 +39,7 @@
   display: inline-block;
   width: 0;
   height: 0;
+  top: 100%;
   border-left: 20px solid transparent; 
   border-right: 20px solid transparent; 
   border-bottom: 20px solid #E2E2E2;
@@ -74,13 +75,14 @@
   text-align: right;
 }
 
-.testimonial-card__customer-name {  
+.testimonial-card__customer-name { 
+  margin-bottom: 12px; 
   text-transform: capitalize;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 39px;
+  line-height: 27px;
   color: #333333;
 }
 
