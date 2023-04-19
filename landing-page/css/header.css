@@ -9,10 +9,28 @@
   align-items: center;
 }
 
+.header-logo {
+  display: inline-block;
+  margin: 0 15px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.logo__text__color-changed {
+  color: #EC7979;
+}
+
 .header-logo__text {
   width: 68px;
   font-size: 30px;
   line-height: 35px;
+}
+
+.navigation {
+  margin: 0 15px;
 }
 
 .navigation-list {
@@ -26,6 +44,7 @@
 
 .navigation-list__item a {
   display: inline-block;
+  padding-bottom: 2px;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
