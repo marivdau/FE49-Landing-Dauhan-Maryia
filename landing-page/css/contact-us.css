@@ -1,5 +1,41 @@
 .contact-us {
-  padding: 80px 111px 44px 111px;
+  padding: 80px 0;
+}
+
+.heading-title__text {
+  margin: auto;
+  max-width: 670px;
+  font-size: 36px;
+  line-height: 42px;  
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-style: normal;  
+  text-transform: uppercase;
+  text-align: center; 
+  color: #212121;  
+}
+
+.heading-title__text::after {
+  content: '';
+  display: block;
+  margin: auto;
+  margin: 34px auto;
+  width: 64px;
+  height: 2px;
+  background-color: #E72424;  
+}
+
+.heading-title__description {
+  margin: auto;
+  margin-bottom: 68px;
+  max-width: 780px;
+  line-height: 19px;
+  font-size: 14px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-style: normal; 
+  text-align: center;     
+  color: #86878B;  
 }
 
 .contact-us-input-area {
@@ -7,7 +43,12 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 68px;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
+}
+
+.contact-us-form-content {
+  width: 40%;
+  margin: 0 15px;
 }
 
 .contact-us-form_item {
@@ -18,12 +59,53 @@
   margin-bottom: 0;
 }
 
-.contact-us-form-item__input {
-  width: 479px;
+.form-item__label {
+  width: 64px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #BDBDBD;
+}
+
+.form-item__input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+  padding: 2px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #EC7979;
+}
+
+.contact-us-form_textarea {
+  width: 40%;
+  margin: 0 15px;
 }
 
 .contact-us-form-item__textarea {
-  width: 478px;
+  display:flexbox;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+  resize: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  color: #EC7979;
+}
+
+.contact-us-form-item__textarea:focus {
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+  outline: 0;
 }
 
 .contact-us-form-button {
@@ -43,4 +125,38 @@
 
 .contact-us-send-button:active {
   border: 1px solid #EC7979;
+}
+
+.form-item__input:focus {
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+  outline: 0;
+}
+
+.contact-us-send-button {
+  display: block;
+  align-items: center;
+  border: none;
+  color: #FFFFFF;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  background-color: #EC7979;
+  border: 1px solid #EC7979;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.contact-us-send-button:hover {
+  color: #EC7979;
+  background-color: #FFFFFF;
+  transition: .5s;
+}
+
+.contact-us-send-button:active {
+  color: #FFFFFF;
+  background-color: #EC7979;
+  transition: .9s;
 }
