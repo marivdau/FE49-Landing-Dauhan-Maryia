@@ -1,16 +1,16 @@
 .header {
-  padding: 0 110px;
+  padding: 20px 0;
   background-color: #000000;
 }
 
 .header-wrap {
+  margin: 0 -15px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header-logo {
-  display: inline-block;
   margin: 0 15px;
   font-family: 'Raleway';
   font-style: normal;
@@ -42,8 +42,11 @@
   margin-left: 48px;
 }
 
+.navigation-list__item:first-child {
+  margin-left: 0;
+}
+
 .navigation-list__item a {
-  display: inline-block;
   padding-bottom: 2px;
   font-family: 'Open Sans';
   font-style: normal;
