@@ -1,12 +1,17 @@
 .social {
   background-color: #F8EFEF;
-  padding: 14px 17px;
+  padding: 15px 0;
 }
 
 .social-content {
+  margin: 0 -15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.social-info {
+  margin: 0 15px;
 }
 
 .social-info__name {
@@ -33,7 +38,7 @@
 }
 
 .social-navigation {
-  margin: 0 -15px;
+  margin: 0 15px;
   width: 684px; 
 }
 

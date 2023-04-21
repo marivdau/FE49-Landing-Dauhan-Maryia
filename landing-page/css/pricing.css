@@ -6,7 +6,7 @@
 .pricing-wrap {
   flex-wrap: wrap;
   display: flex;
-  justify-content: space-evenly;  
+  justify-content: space-between;  
 }
 
 .heading-title__text {
