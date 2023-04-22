@@ -9,6 +9,7 @@
 @import url(./primary.css);
 @import url(./contact-us.css);
 @import url(./features.css);
+@import url(./_media.css);
 
 * {
   margin: 0; 

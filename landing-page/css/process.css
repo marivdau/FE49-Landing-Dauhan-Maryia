@@ -47,7 +47,7 @@
 
 .process-card {
   margin: 0 15px;
-  width: 350px;
+  max-width: 350px;
   font-family: 'Open Sans';
   text-align: center;
 }
@@ -74,7 +74,7 @@
 }
 
 .process-card__text p {
-  width: 350px;
+  max-width: 350px;
   font-size: 14px;
   line-height: 19px; 
   font-weight: 400;
