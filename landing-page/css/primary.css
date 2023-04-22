@@ -56,7 +56,7 @@
 }
 
 .primary-heading {
-  width: 544px;
+  max-width: 544px;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
@@ -113,7 +113,7 @@
 
 .primary-description {
   margin-bottom: 39px;
-  width: 282px;
+  max-width: 282px;
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 300;

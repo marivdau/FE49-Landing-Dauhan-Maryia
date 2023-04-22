@@ -28,7 +28,7 @@
 }
 
 .social-info__text {
-  width: 365px;
+  max-width: 365px;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
